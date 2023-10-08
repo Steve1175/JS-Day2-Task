@@ -1,0 +1,35 @@
+Difference between Document and Window objects
+
+Document Object :
+         The Document object represents the web page that is loaded in to the browser.
+By Accessing the Document object we can access the element in the HTML page. With the 
+help of the document object we can add dynamic content to our web page.
+         DOM represents a document with a logical tree. Each brance of the tree ends in a
+node and each node contains an objects. DOM methods allow programmatic access to the tree.
+With that you can change the document's structure, style or content.
+
+DOM Interfaces:
+         1.abortController
+         2.abortSignal
+         3.abstarctRange
+         4.attr
+         5.domError
+         6.customEvent etc.
+         
+
+Window Object:
+          The Window object is the top most object in the DOM hierarchy. The Window interface
+represents the window containing the DOM document. The document property points to the DOM
+DOM document loaded in to that window.
+          The global variable window is represents the window in which script is running and
+exposed to the Javascript code. The window interface is a home to a variety of functions,
+namespaces, objects and constructors which are not necessarily directly associated with the
+concept of a user interface window. However the window interface is a suitable place to include
+these items which needs to be globally available.
+
+Properties of window obeject:
+          Below are the few properties of window object.
+        1.window.caches
+        2.window.clientInformation
+        3.window.closed
+        4.window.console etc.
